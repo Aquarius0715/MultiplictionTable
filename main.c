@@ -3,16 +3,18 @@
 int main() {
     for (int ii = 1; ii < 10; ii++) {
         if (ii == 1) {
-            printf(" ");
+            printf("   ");
             printf("  %d", ii);
         } else {
             printf("  %d", ii);
         }
     }
 
+    printf("\n  ----------------------------");
+
     printf("\n");
     for (int I = 1; I < 10; I++) {
-        printf("%d", I);
+        printf("%d |", I);
         for (int II = 1; II < 10; II++) {
             if (I * II < 10) {
                 printf(" 0%d", I * II);

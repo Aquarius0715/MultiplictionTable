@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    for (int ii = 1; ii < 10; ii++) {
-        if (ii == 1) {
+    for (int i = 1; i < 10; i++) {
+        if (i == 1) {
             printf("   ");
-            printf("  %d", ii);
+            printf("  %d", i);
         } else {
-            printf("  %d", ii);
+            printf("  %d", i);
         }
     }
 
     printf("\n  ----------------------------");
 
     printf("\n");
-    for (int I = 1; I < 10; I++) {
-        printf("%d |", I);
+    for (int ii = 1; ii < 10; ii++) {
+        printf("%d |", ii);
         for (int II = 1; II < 10; II++) {
-            if (I * II < 10) {
-                printf(" 0%d", I * II);
+            if (ii * II < 10) {
+                printf(" 0%d", ii * II);
             } else {
-                printf(" %d", I * II);
+                printf(" %d", ii * II);
             }
         }
         printf("\n");

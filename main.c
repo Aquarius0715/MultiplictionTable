@@ -10,16 +10,15 @@ int main() {
         }
     }
 
-    printf("\n  ----------------------------");
+    printf("\n  ----------------------------\n");
 
-    printf("\n");
     for (int ii = 1; ii < 10; ii++) {
         printf("%d |", ii);
-        for (int II = 1; II < 10; II++) {
-            if (ii * II < 10) {
-                printf(" 0%d", ii * II);
+        for (int iii = 1; iii < 10; iii++) {
+            if (ii * iii < 10) {
+                printf(" 0%d", ii * iii);
             } else {
-                printf(" %d", ii * II);
+                printf(" %d", ii * iii);
             }
         }
         printf("\n");

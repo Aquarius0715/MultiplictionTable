@@ -16,7 +16,7 @@ int main() {
         printf("%d |", ii);
         for (int iii = 1; iii < 10; iii++) {
             if (ii * iii < 10) {
-                printf(" 0%d", ii * iii);
+                printf("  %d", ii * iii);
             } else {
                 printf(" %d", ii * iii);
             }
